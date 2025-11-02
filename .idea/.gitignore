@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Flask
+instance/
+.webassets-cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Certificates (don't push private keys!)
+cert.pem
+key.pem
+
+# Large files
+*.zip
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
